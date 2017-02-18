@@ -18,6 +18,7 @@
   <!-- Pure Repo's -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr1" />
+  <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="n-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -354,7 +355,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
