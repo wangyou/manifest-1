@@ -17,6 +17,7 @@
 
   <!-- Pure Repo's -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr1" />
+  <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
