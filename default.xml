@@ -22,6 +22,7 @@
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="pure" revision="n-mr1" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pure" revision="n-mr1" />
   <project path="manifest" name="manifest" remote="pure" revision="n-mr1" />
+  <project path="device/google/dragon" name="android_device_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="n-mr1" />
   <project path="external/busybox" name="android_external_busybox" remote="pure" revision="n-mr1" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="pure" revision="n-mr1" />
@@ -88,7 +89,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" />
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
