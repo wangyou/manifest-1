@@ -56,6 +56,7 @@
 
   <!-- Kernel Source -->
   <project path="kernel/google/dragon" name="android_kernel_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
+  <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="n-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -95,7 +96,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
