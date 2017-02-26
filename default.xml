@@ -57,6 +57,7 @@
   <!-- Kernel Source -->
   <project path="kernel/google/dragon" name="android_kernel_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="n-mr1" />
+  <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -98,7 +99,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
