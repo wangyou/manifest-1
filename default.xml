@@ -60,7 +60,7 @@
   <project path="vendor/pure" name="android_vendor_pure" remote="pure" revision="n-mr1" />
 
   <!-- Kernel Source -->
-  <!----project path="kernel/google/dragon" name="android_kernel_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
+  <!--project path="kernel/google/dragon" name="android_kernel_google_dragon" groups="device,dragon" remote="pure" revision="n-mr1" />
   <project path="kernel/google/marlin" name="android_kernel_google_marlin" groups="device,marlin" remote="pure" revision="n-mr1" />
   <project path="kernel/huawei/angler" name="android_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="n-mr1" />
   <project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="n-mr1" />
